@@ -6,7 +6,7 @@
 	export let classNames = "";
 </script>
 
-{#if envPublic.PUBLIC_APP_ASSETS === "chatui"}
+{#if PUBLIC_APP_ASSETS === "carelon"}
 	<svg
 		height="30"
 		width="30"

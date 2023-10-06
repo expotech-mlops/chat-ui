@@ -38,8 +38,9 @@
 				</div>
 			</div>
 			<p class="text-base text-gray-600 dark:text-gray-400">
-				{envPublic.PUBLIC_APP_DESCRIPTION ||
-					"Making the community's best AI chat models available to everyone."}
+				<strong>S</strong>erverless <strong>L</strong>lm <strong>I</strong>nference
+				<strong>P</strong>latform (<strong>SLIP</strong>) <strong>UI</strong>, a fork of HuggingFace
+				Chat-UI connected to <strong>self-hosted</strong> serverless scalable LLM services.
 			</p>
 		</div>
 	</div>
