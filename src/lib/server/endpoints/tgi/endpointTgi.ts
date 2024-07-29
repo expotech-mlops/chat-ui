@@ -15,7 +15,7 @@ export const endpointTgiParametersSchema = z.object({
 	type: z.literal("tgi"),
 	url: z.string().url(),
 	accessToken: z.string().default(env.HF_TOKEN ?? env.HF_ACCESS_TOKEN),
-	authorization: z.string().optional(),
+	authorization: z.string().default(env.SLIP_ACCESS_TOKEN),
 	multimodal: z
 		.object({
 			// Assumes IDEFICS
